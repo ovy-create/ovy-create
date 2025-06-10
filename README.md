@@ -14,3 +14,11 @@ mkdir wa-bot
 cd wa-bot
 npm init -y
 npm install whatsapp-web.js qrcode-terminal
+echo "# ovy" >> README.md 
+git init 
+git add README.md 
+git commit -m "komit pertama" 
+git branch -M main 
+git remote add origin https://github.com/ovy-create/ovy.git
+ git push -u origin main
+ 
